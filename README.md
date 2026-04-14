@@ -9,16 +9,16 @@
  888    Y88b  "Y88888P"  8888888P" 8888888P     888  888    Y888
 ```
 
-export kobo highlights → obsidian notes + ai insights
-
----
+> export kobo highlights → obsidian notes + ai insights
 
 ## setup
 
+1. 
 ```bash
 npm install
 ```
 
+2. 
 create `.env.local`:
 
 ```env
@@ -27,8 +27,10 @@ OBSIDIAN_VAULT_PATH=~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Vaul
 KOBO_MOUNT_PATH=/Volumes/KOBOeReader
 ```
 
+3. 
 ```bash
 npm run dev
 ```
 
-open `localhost:3000`, connect your Kobo via USB.
+4. 
+open `localhost:3000`, (connect your Kobo via USB).
