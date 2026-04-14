@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-mono), "JetBrains Mono", "IBM Plex Mono", monospace;
+}
